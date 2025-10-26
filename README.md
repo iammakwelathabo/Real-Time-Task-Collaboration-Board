@@ -12,53 +12,6 @@ This app allows teams to create, assign, and update tasks live — no page refre
  User Authentication – Secure login and logout functionality via Laravel Breeze.
  Responsive Design – Works seamlessly on desktop, tablet, and mobile.
 
- Tech Stack
-    Layer	Technology
-    Backend	Laravel 11 / PHP 8+
-    Frontend	HTML, Tailwind CSS, Vanilla JavaScript
-    Real-Time	Laravel Echo + Reverb
-    Database	MySQL / MariaDB
-    Auth	Laravel Breeze
-    Server	Apache / Nginx
-
-Folder Structure
- real-time-task-collaboration-board/
-├── app/
-│   ├── Http/
-│   │   ├── Controllers/
-│   │   │   ├── TaskController.php
-│   │   │   └── Auth/
-│   │   │       └── AuthenticatedSessionController.php
-│   ├── Models/
-│   │   └── Task.php
-│   └── Events/
-│       └── TaskUpdated.php
-│
-├── public/
-│   ├── js/
-│   │   └── tasks.js
-│   └── css/
-│       └── app.css
-│
-├── resources/
-│   ├── views/
-│   │   ├── dashboard.blade.php
-│   │   ├── tasks/
-│   │   │   └── index.blade.php
-│   │   └── auth/
-│   │       ├── login.blade.php
-│   │       └── register.blade.php
-│   └── js/
-│       └── echo.js
-│
-├── routes/
-│   └── web.php
-│
-├── composer.json
-├── package.json
-├── webpack.mix.js
-└── README.md
-
 1.Clone the Repository
     git clone https://github.com/iammakwelathabo/Real-Time-Task-Collaboration-Board.git
     cd Real-Time-Task-Collaboration-Board
@@ -182,8 +135,10 @@ Step 8: Broadcasting Events from Laravel
             return ['tasks'];
         }
     }
-    Broadcast the event from your controller:
-    event(new TaskUpdated($task));
+
+    
+Broadcast the event from your controller:
+event(new TaskUpdated($task));
 
 Troubleshooting
 
