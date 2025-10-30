@@ -152,5 +152,23 @@ This project is licensed under the MIT License – you are free to use, modify, 
 
 Author
 Thabo Makwela
+
 Full Stack Developer
+
 platformdeveloping@gmail.com
+
+Preview
+
+
+
+https://github.com/user-attachments/assets/2d406b72-17d4-4494-9744-eae9e01ec01c
+
+
+
+<img width="1336" height="600" alt="dashboard" src="https://github.com/user-attachments/assets/bdb9a127-fd34-4059-b3c4-4437c424dcb7" />
+
+
+<img width="1336" height="593" alt="create task" src="https://github.com/user-attachments/assets/fa640ed8-c59d-49d9-bdc4-b3043997b87d" />
+
+
+<img width="1340" height="597" alt="edit task" src="https://github.com/user-attachments/assets/fa509591-98d3-4948-abb3-89295d3f9590" />
