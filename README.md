@@ -102,6 +102,7 @@ Step 3: Configure .env
 
 Step 4: Update Broadcasting Configuration
     open config/broadcasting.php - includes the Reverb connection: (create the file if it doesn't exist)
+    
     'reverb' => [
     'driver' => 'reverb',
     'app_id' => env('REVERB_APP_ID'),
@@ -116,6 +117,7 @@ Step 5: Start the Reverb Server
     php artisan reverb:start - (Keep this running in a separate terminal tab.)
 
 Step 6: Configure Laravel Echo (Frontend)
+
     import Echo from 'laravel-echo';
     import Reverb from 'reverb-js';
     window.Echo = new Echo({
