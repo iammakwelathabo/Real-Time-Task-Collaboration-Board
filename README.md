@@ -75,6 +75,7 @@ Step 2: Publish Reverb Configuration
     php artisan vendor:publish --tag=reverb-config
 
 Step 3: Configure .env
+
     BROADCAST_CONNECTION=reverb
     
     BROADCAST_DRIVER=reverb
